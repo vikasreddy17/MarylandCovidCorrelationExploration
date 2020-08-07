@@ -1,0 +1,101 @@
+index,feature_1,feature_2,correlation
+0,Cases,Cases,1.0
+1,Cases,Confirmed Deaths,0.9830625330486539
+2,Cases,Population,0.9466758804889185
+3,Cases,Land,0.09774296996023774
+4,Cases,Population Density,0.5876755603655182
+5,Cases,Median Income,0.24417648140995907
+6,Cases,Poverty Rate,-0.11039889414487085
+7,Cases,Child Poverty Rate,-0.16006930360874808
+8,Cases,Senior Poverty Rate,0.15762132386735894
+9,Cases,Housing Wage,0.5413495773449408
+10,Confirmed Deaths,Cases,0.9830625330486539
+11,Confirmed Deaths,Confirmed Deaths,1.0
+12,Confirmed Deaths,Population,0.9573948965285894
+13,Confirmed Deaths,Land,0.1361906564585927
+14,Confirmed Deaths,Population Density,0.5609667198167096
+15,Confirmed Deaths,Median Income,0.26272406514493923
+16,Confirmed Deaths,Poverty Rate,-0.12955315003694276
+17,Confirmed Deaths,Child Poverty Rate,-0.16949763479892624
+18,Confirmed Deaths,Senior Poverty Rate,0.13364528074515958
+19,Confirmed Deaths,Housing Wage,0.5476184793435077
+20,Population,Cases,0.9466758804889185
+21,Population,Confirmed Deaths,0.9573948965285894
+22,Population,Population,1.0
+23,Population,Land,0.18728549443611023
+24,Population,Population Density,0.5816145353510754
+25,Population,Median Income,0.3151757235264135
+26,Population,Poverty Rate,-0.16897705391566262
+27,Population,Child Poverty Rate,-0.19234209743038516
+28,Population,Senior Poverty Rate,0.08702457134916325
+29,Population,Housing Wage,0.5341006359038003
+30,Land,Cases,0.09774296996023774
+31,Land,Confirmed Deaths,0.1361906564585927
+32,Land,Population,0.18728549443611023
+33,Land,Land,1.0
+34,Land,Population Density,-0.40091215105808586
+35,Land,Median Income,0.004574872914282283
+36,Land,Poverty Rate,-0.23543416997961694
+37,Land,Child Poverty Rate,-0.3683583180755615
+38,Land,Senior Poverty Rate,-0.3192531019272244
+39,Land,Housing Wage,-0.0319725222615686
+40,Population Density,Cases,0.5876755603655182
+41,Population Density,Confirmed Deaths,0.5609667198167096
+42,Population Density,Population,0.5816145353510754
+43,Population Density,Land,-0.40091215105808586
+44,Population Density,Population Density,1.0
+45,Population Density,Median Income,-0.042561635758502366
+46,Population Density,Poverty Rate,0.2865556274646981
+47,Population Density,Child Poverty Rate,0.14385234041376513
+48,Population Density,Senior Poverty Rate,0.6887120575873416
+49,Population Density,Housing Wage,0.2869282474531276
+50,Median Income,Cases,0.24417648140995907
+51,Median Income,Confirmed Deaths,0.26272406514493923
+52,Median Income,Population,0.3151757235264135
+53,Median Income,Land,0.004574872914282283
+54,Median Income,Population Density,-0.042561635758502366
+55,Median Income,Median Income,1.0
+56,Median Income,Poverty Rate,-0.8812178881264171
+57,Median Income,Child Poverty Rate,-0.3208663382925039
+58,Median Income,Senior Poverty Rate,-0.6018071974851048
+59,Median Income,Housing Wage,0.7906137082515993
+60,Poverty Rate,Cases,-0.11039889414487085
+61,Poverty Rate,Confirmed Deaths,-0.12955315003694276
+62,Poverty Rate,Population,-0.16897705391566262
+63,Poverty Rate,Land,-0.23543416997961694
+64,Poverty Rate,Population Density,0.2865556274646981
+65,Poverty Rate,Median Income,-0.8812178881264171
+66,Poverty Rate,Poverty Rate,1.0
+67,Poverty Rate,Child Poverty Rate,0.44081737172521207
+68,Poverty Rate,Senior Poverty Rate,0.7828072126082724
+69,Poverty Rate,Housing Wage,-0.6500788521948185
+70,Child Poverty Rate,Cases,-0.16006930360874808
+71,Child Poverty Rate,Confirmed Deaths,-0.16949763479892624
+72,Child Poverty Rate,Population,-0.19234209743038516
+73,Child Poverty Rate,Land,-0.3683583180755615
+74,Child Poverty Rate,Population Density,0.14385234041376513
+75,Child Poverty Rate,Median Income,-0.3208663382925039
+76,Child Poverty Rate,Poverty Rate,0.44081737172521207
+77,Child Poverty Rate,Child Poverty Rate,1.0
+78,Child Poverty Rate,Senior Poverty Rate,0.41424763488146465
+79,Child Poverty Rate,Housing Wage,-0.12611264407572895
+80,Senior Poverty Rate,Cases,0.15762132386735894
+81,Senior Poverty Rate,Confirmed Deaths,0.13364528074515958
+82,Senior Poverty Rate,Population,0.08702457134916325
+83,Senior Poverty Rate,Land,-0.3192531019272244
+84,Senior Poverty Rate,Population Density,0.6887120575873416
+85,Senior Poverty Rate,Median Income,-0.6018071974851048
+86,Senior Poverty Rate,Poverty Rate,0.7828072126082724
+87,Senior Poverty Rate,Child Poverty Rate,0.41424763488146465
+88,Senior Poverty Rate,Senior Poverty Rate,1.0
+89,Senior Poverty Rate,Housing Wage,-0.2443311437122989
+90,Housing Wage,Cases,0.5413495773449408
+91,Housing Wage,Confirmed Deaths,0.5476184793435077
+92,Housing Wage,Population,0.5341006359038003
+93,Housing Wage,Land,-0.0319725222615686
+94,Housing Wage,Population Density,0.2869282474531276
+95,Housing Wage,Median Income,0.7906137082515993
+96,Housing Wage,Poverty Rate,-0.6500788521948185
+97,Housing Wage,Child Poverty Rate,-0.12611264407572895
+98,Housing Wage,Senior Poverty Rate,-0.2443311437122989
+99,Housing Wage,Housing Wage,1.0
