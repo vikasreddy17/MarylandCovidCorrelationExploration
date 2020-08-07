@@ -120,24 +120,6 @@ def ask_to_try_again():
   elif answer_to_try_again == 'no':
     return True
 
-#asks whether user wants to download or save the information presented
-def ask_save_info():
-  print('Would you like to save the information presented to you as files? Type yes or no')
-  ask_to_save = input()
-  move_on = False
-  while move_on == False:
-    if ask_to_save == 'yes' or 'no':
-      move_on = True
-    else:
-      print('error, please say yes or no')
-      ask_to_save = input()
-      ask_to_save = ask_to_save.lower()
-      move_on = False
-  if ask_to_save == 'yes':
-    return False
-  elif ask_to_save == 'no':
-    return True
-
 #correlation heatmap creation and data files download
 def user_file_down(maryland_covid_data):
   correlation_matrix = maryland_covid_data.corr()
@@ -185,7 +167,6 @@ if l == 6:
   print('************************************************************')
 
 #save files and end
-ask_save_info()
 user_file_down(maryland_covid_data)
 time.sleep(2)
 print('Thank you for using my program!!')
